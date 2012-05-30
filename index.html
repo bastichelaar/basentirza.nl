@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type='text/javascript' src='js/jquery.js'></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="nav">
+     <ul>
+     </ul>
+</div>
+<div id="home" align="center">
+	<h1>Binnenkort meer informatie!</h1>
+	<img src="images/aanzoek.png">
+	<p>De site is nog niet helemaal af, kom over een paar dagen terug!</p>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+ 
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+	});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+html {
+	background-color: #302822;
+	color: #f6edcd;
+}
+h1 {
+	font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 56px;
+	line-height: 80px;
+	color: #f6edcd;
+}
+ 
+p {
+	font-family: 'Lekton', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
