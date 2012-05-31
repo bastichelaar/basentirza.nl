@@ -2,15 +2,47 @@ html {
 	background-color: #302822;
 	color: #f6edcd;
 }
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
 h1 {
 	font-family: 'Molengo', Georgia, Times, serif;
 	font-size: 56px;
 	line-height: 80px;
-	color: #f6edcd;
 }
  
-p {
+#home {
 	font-family: 'Lekton', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 25px;
+	height: 1200px;
+	color: #f6edcd;
 }
+#home a, a:visited {
+	color: #f6edcd;
+}
+#home a:hover {
+	color: #f6edcd;
+	text-decoration: none;
+}
+
+#route {
+	font-family: 'Lekton', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	color: #302822;
+	background:#ffffff url('../images/background.jpg') repeat right top;
+	height: 1200px;
+}
+#route a, a:visited {
+	color: #302822;
+}
+#route a:hover {
+	color: #302822;
+	text-decoration: none;
+}
+
+
+
