@@ -40,6 +40,7 @@ h1 {
 }
 #route a, a:visited {
 	color: #302822;
+	font-size: 30px;
 }
 #route a:hover {
 	color: #302822;
