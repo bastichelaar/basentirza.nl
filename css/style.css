@@ -35,7 +35,7 @@ h1 {
 	font-size: 16px;
 	line-height: 25px;
 	color: #302822;
-	background:#ffffff url('../images/background.jpg') repeat right top;
+	background:#ffffff url('../images/background.jpg') no-repeat right top;
 	height: 1200px;
 }
 #route a, a:visited {
@@ -45,6 +45,8 @@ h1 {
 	color: #302822;
 	text-decoration: none;
 }
-
+iframe {
+	margin-top: 50px;
+}
 
 
